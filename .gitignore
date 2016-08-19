@@ -1,2 +1,5 @@
 # WebStorm
 .idea/
+
+# Bower
+app/lib/

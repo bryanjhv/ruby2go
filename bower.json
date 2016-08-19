@@ -1,0 +1,14 @@
+{
+  "name": "ruby2go",
+  "description": "Run Ruby in your Firefox OS smartphone.",
+  "license": "MIT",
+  "keywords": [
+    "firefox os",
+    "ruby",
+    "smartphone"
+  ],
+  "authors": [
+    "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.xyz)"
+  ],
+  "private": true
+}

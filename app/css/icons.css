@@ -1,0 +1,15 @@
+.icon {
+  display: block;
+  width: 3rem;
+  height: 5rem;
+  background: transparent no-repeat center / 3rem auto;
+  font-size: 0;
+}
+
+.icon-play {
+  background-image: url("../img/ui/play.svg");
+}
+
+.icon-question {
+  background-image: url("../img/ui/question.svg");
+}

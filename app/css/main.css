@@ -42,12 +42,11 @@ article {
   top: 5rem;
 }
 
-textarea {
+.CodeMirror {
   font-size: 1.5rem;
-  margin: 0;
-  padding: 0;
-  width: 100%;
   height: 100%;
-  resize: none;
-  border: none;
+}
+
+.CodeMirror pre.CodeMirror-placeholder {
+  color: #999;
 }

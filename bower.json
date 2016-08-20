@@ -10,5 +10,8 @@
   "authors": [
     "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.xyz)"
   ],
+  "dependencies": {
+    "codemirror": "5.5.0"
+  },
   "private": true
 }

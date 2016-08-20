@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Ruby2Go</title>
+  <link rel="stylesheet" href="lib/codemirror/lib/codemirror.css">
+  <link rel="stylesheet" href="lib/codemirror/theme/material.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body role="application">
@@ -12,8 +14,13 @@
     <h1>Ruby2Go</h1>
   </header>
   <article>
-    <textarea id="editor"></textarea>
+    <textarea id="editor" placeholder="Place your code here..."></textarea>
   </article>
 </section>
+
+<script src="lib/codemirror/lib/codemirror.js"></script>
+<script src="lib/codemirror/mode/ruby/ruby.js"></script>
+<script src="lib/codemirror/addon/display/placeholder.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

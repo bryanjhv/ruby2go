@@ -13,3 +13,7 @@
 .icon-question {
   background-image: url("../img/ui/question.svg");
 }
+
+.icon-chevron-left {
+  background-image: url("../img/ui/chevron-left.svg");
+}

@@ -24,6 +24,11 @@ header {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+.fixed {
+  position: absolute;
+  width: 100%;
+}
+
 menu {
   height: 100%;
   float: right;
@@ -78,6 +83,63 @@ h1 {
 article {
   height: calc(100% - 5rem);
   top: 5rem;
+}
+
+.scrollable {
+  overflow: scroll;
+  box-sizing: border-box;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  width: 100%;
+  min-height: 6rem;
+  box-sizing: border-box;
+  border-bottom: solid 0.1rem #e7e7e7;
+  color: #333;
+  margin: 0;
+  padding: 0 1.5rem;
+  display: block;
+  position: relative;
+}
+
+li.active {
+  background-color: rgba(0, 213, 255, 0.3);
+}
+
+li:last-child {
+  border: none;
+}
+
+li p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  margin: 0;
+  color: #858585;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+li p:first-of-type {
+  white-space: pre-wrap;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #333;
+  padding: 1rem 0 0;
+}
+
+li p time {
+  margin-right: 0.3rem;
+  text-transform: uppercase;
 }
 
 .CodeMirror {

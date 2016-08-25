@@ -1,0 +1,45 @@
+@keyframes rightToCurrent {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes currentToLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes currentToRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes leftToCurrent {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+section {
+  position: absolute;
+  width: 100%;
+  transform: translateX(100%);
+}
+
+section:first-of-type {
+  transform: translateX(0);
+}
+
+.current-right {
+  animation: currentToRight 0.25s forwards;
+}
+
+.left-current {
+  animation: leftToCurrent 0.25s forwards;
+}
+
+.current-left {
+  animation: currentToLeft 0.25s forwards;
+}
+
+.right-current {
+  animation: rightToCurrent 0.25s forwards;
+}

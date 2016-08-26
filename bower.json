@@ -11,7 +11,8 @@
     "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.xyz)"
   ],
   "dependencies": {
-    "codemirror": "5.5.0"
+    "codemirror": "5.5.0",
+    "opal": "0.10.1"
   },
   "private": true
 }

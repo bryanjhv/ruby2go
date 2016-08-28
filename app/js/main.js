@@ -32,27 +32,27 @@
       parent = ul.parentNode;
     progress.value = 0;
     progress.max = 100;
-    parent.appendChild(progress);
+    parent.insertBefore(progress, ul);
 
     run(code, function (error, result) {
       var li = document.createElement('li'), p;
       li.className = 'active';
 
       p = document.createElement('p');
-      li.appendChild(p);
-      p.innerText = result || ' '; // fix empty output
+      p.textContent = result || ' '; // fix empty output
       if (error) {
         p.className = 'error';
-        p.innerText = error.name + ': ' + error.message;
+        p.textContent = error.name + ': ' + error.message;
       }
+      li.appendChild(p);
 
       p = document.createElement('p');
-      li.appendChild(p);
       var time = document.createElement('time');
       time.dateTime = date.toJSON();
-      time.innerText = date.toString().slice(16, -12);
+      time.textContent = date.toString().match(/\d\d:\d\d/)[0];
       p.appendChild(time);
-      p.insertAdjacentText('beforeend', code);
+      p.appendChild(document.createTextNode(code));
+      li.appendChild(p);
 
       if (active) {
         ul.insertBefore(li, active);

@@ -18,6 +18,11 @@
   100% { transform: translateX(0); }
 }
 
+@keyframes move {
+  from { background-position: 0 0; }
+  to { background-position: 1rem 0; }
+}
+
 section {
   position: absolute;
   width: 100%;

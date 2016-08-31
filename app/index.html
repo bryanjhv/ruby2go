@@ -13,7 +13,7 @@
 <body role="application">
 <section role="region" id="page-code">
   <header>
-    <button>
+    <button data-href="help">
       <span class="icon icon-question">question</span>
     </button>
     <menu type="toolbar">
@@ -36,6 +36,38 @@
   </header>
   <article class="scrollable">
     <ul id="history"></ul>
+  </article>
+</section>
+<section role="region" id="page-help">
+  <header class="fixed">
+    <button data-back>
+      <span class="icon icon-chevron-left">chevron-left</span>
+    </button>
+    <h1>Ruby2Go: Help</h1>
+  </header>
+  <article class="scrollable">
+    <div class="content">
+      <h2>Usage</h2>
+      <p>
+        Ruby2Go is easy to use.<br>Write your Ruby code in the <b>editor</b>,
+        then press the <img src="img/play.svg" alt="play"> icon to run it. The
+        result is appended (and highlighted) at the top of the list.
+      </p>
+      <h2>History</h2>
+      <p>
+        The page you go when your code is run is called "history". Here you see
+        the results of all the runs during <b>current</b> session, so when you
+        close the app they are not saved.
+      </p>
+      <h2>Language support</h2>
+      <p>
+        The library used to run the Ruby code is called
+        <a href="http://opalrb.org/">Opal</a>, which provides support for Ruby 2
+        but some features are broken. If you encounter a failure, please report
+        it to its repository so we both can benefit.
+      </p>
+    </div>
+    <!-- Write down help here -->
   </article>
 </section>
 

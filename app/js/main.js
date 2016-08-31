@@ -5,7 +5,8 @@
     mode: 'ruby'
   });
 
-  var btnRun = document.getElementById('btn-run');
+  var btnRun = document.getElementById('btn-run'),
+    btnBack = document.getElementById('btn-result-back');
 
   // Enable execution on content
   editor.
@@ -23,6 +24,7 @@
 
     var self = this;
     self.disabled = true;
+    btnBack.disabled = true;
 
     if (active) {
       active.className = '';
@@ -63,6 +65,7 @@
 
       parent.removeChild(progress);
       self.disabled = false;
+      btnBack.disabled = false;
     });
   }, false);
 

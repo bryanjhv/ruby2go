@@ -3,3 +3,7 @@
 
 # Bower
 app/lib/
+
+# NodeJS
+node_modules/
+npm-debug.log

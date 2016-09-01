@@ -1,0 +1,14 @@
+{
+  "name": "Ruby2Go",
+  "description": "Run Ruby in your Firefox OS smartphone.",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/img/icon/60.png",
+    "128": "/img/icon/128.png",
+    "512": "/img/icon/512.png"
+  },
+  "developer": {
+    "name": "Bryan Horna",
+    "url": "https://bryanjhv.xyz"
+  }
+}

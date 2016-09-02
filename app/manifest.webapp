@@ -11,5 +11,12 @@
     "name": "Bryan Horna",
     "url": "https://bryanjhv.xyz"
   },
+  "default_locale": "en",
+  "locales": {
+    "es": {
+      "name": "Ruby2Go",
+      "description": "Ejecuta Ruby en tu smartphone con Firefox OS."
+    }
+  },
   "version": "1.0.0"
 }

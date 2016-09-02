@@ -32,7 +32,7 @@ gulp.task('clean', function () {
 
 gulp.task('minify', ['clean'], function () {
   return gulp.
-  src('app/index.html').
+  src('app/*.html').
   pipe(useref()).
   pipe(gulpif('*.html', htmlmin({ collapseWhitespace: true }))).
   pipe(gulpif('*.css', mincss())).

@@ -10,5 +10,18 @@
   "license": "MIT",
   "author": "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.xyz)",
   "repository": "bryanjhv/ruby2go",
+  "devDependencies": {
+    "del": "~2.2.2",
+    "gulp": "~3.9.1",
+    "gulp-clean-css": "~2.0.12",
+    "gulp-concat": "~2.6.0",
+    "gulp-copy": "0.0.2",
+    "gulp-htmlmin": "~2.0.0",
+    "gulp-if": "~2.0.1",
+    "gulp-replace": "~0.5.4",
+    "gulp-uglify": "~2.0.0",
+    "gulp-useref": "~3.1.2",
+    "gulp-zip": "~3.2.0"
+  },
   "private": true
 }

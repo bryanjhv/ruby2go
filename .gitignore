@@ -7,3 +7,7 @@ app/lib/
 # NodeJS
 node_modules/
 npm-debug.log
+
+# Generated
+dist/
+package.zip

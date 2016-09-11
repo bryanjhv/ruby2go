@@ -1,6 +1,7 @@
 importScripts(
   '../lib/opal/opal/0.10.1/opal.js',
-  '../lib/opal/opal/0.10.1/opal-parser.js'
+  '../lib/opal/opal/0.10.1/opal-parser.js',
+  '../js/override.js'
 );
 
 Opal.load('opal-parser');
@@ -23,6 +24,7 @@ onmessage = function (event) {
   result = '';
   var error;
   try {
+    reset();
     // both 'puts' and 'print' use console.log,
     // captured on global 'result', so just eval
     eval(Opal.compile(data.code));

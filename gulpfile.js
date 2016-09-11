@@ -46,7 +46,8 @@ gulp.task('opal', ['clean'], function () {
   return gulp.
   src([
     base + '/opal.js',
-    base + '/opal-parser.js'
+    base + '/opal-parser.js',
+    'app/js/override.js'
   ]).
   pipe(concat('opal.js')).
   pipe(uglify()).

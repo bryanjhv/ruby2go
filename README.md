@@ -5,7 +5,7 @@ Run Ruby in your Firefox OS smartphone.
 
 ## Usage
 
-Just search the [Marketplace](https://marketplace.firefox.com) for "Ruby2Go".
+This application is comming soon to an app store near you. Once released, be sure to search for "Ruby2Go".
 
 
 ## Contributing

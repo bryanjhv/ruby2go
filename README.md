@@ -2,12 +2,6 @@
 
 Run Ruby in your Firefox OS smartphone.
 
-
-## Usage
-
-Just search the [Marketplace](https://marketplace.firefox.com) for "Ruby2Go".
-
-
 ## Contributing
 
 I'm using Bower and Gulp, so grab these before proceeding.

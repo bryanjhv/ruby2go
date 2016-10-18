@@ -11,3 +11,6 @@ npm-debug.log
 # Generated
 dist/
 package.zip
+
+# macOS
+*.DS_Store

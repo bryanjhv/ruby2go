@@ -2,6 +2,11 @@
 
 Run Ruby in your Firefox OS smartphone.
 
+## Usage
+
+Soon this app will be yours!
+
+TODO: Write steps for usage
 
 ## Contributing
 

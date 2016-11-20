@@ -8,7 +8,7 @@
     "smartphone"
   ],
   "authors": [
-    "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.xyz)"
+    "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.github.io)"
   ],
   "dependencies": {
     "codemirror": "5.5.0",

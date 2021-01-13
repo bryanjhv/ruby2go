@@ -47,8 +47,8 @@ I'm using and distributing some libraries I wish to thank:
 
 ## License
 
-This project is released under the [MIT license](LICENSE.txt).
-The licenses for the libraries used are [here](THIRDPARTYLICENSE.txt).
+This project is released under the [MIT license](license.txt).
+The licenses for the libraries used are [here](thirdpartylicense.txt).
 
 
 [paybtn]: https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif

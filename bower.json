@@ -2,14 +2,8 @@
   "name": "ruby2go",
   "description": "Run Ruby in your Firefox OS smartphone.",
   "license": "MIT",
-  "keywords": [
-    "firefox os",
-    "ruby",
-    "smartphone"
-  ],
-  "authors": [
-    "Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.github.io)"
-  ],
+  "keywords": ["firefox os", "ruby", "smartphone"],
+  "authors": ["Bryan Horna <bryanjhv@gmail.com> (https://bryanjhv.github.io)"],
   "dependencies": {
     "codemirror": "5.5.0",
     "opal": "0.10.1"

@@ -1,7 +1,8 @@
 (function () {
-
   var worker;
-  var callbacks = {}, id = 1, count = 0;
+  var callbacks = {},
+    id = 1,
+    count = 0;
 
   function onmessage(event) {
     var data = event.data,
@@ -19,7 +20,6 @@
 
   startWorker();
 
-
   function run(code, callback) {
     callbacks[id] = callback;
     count++;
@@ -31,15 +31,18 @@
   }
   this.run = run;
 
-  document.addEventListener('visibilitychange', function () {
-    if (document.hidden) {
-      if (count == 0) {
-        worker.terminate();
-        worker = null;
+  document.addEventListener(
+    'visibilitychange',
+    function () {
+      if (document.hidden) {
+        if (count == 0) {
+          worker.terminate();
+          worker = null;
+        }
+      } else if (!worker) {
+        startWorker();
       }
-    } else if (!worker) {
-      startWorker();
-    }
-  }, false);
-
+    },
+    false
+  );
 })();

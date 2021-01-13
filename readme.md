@@ -2,14 +2,12 @@
 
 Run Ruby in your Firefox OS smartphone.
 
-
 ## Installation
 
-Open the Marketplace in your Firefox OS device, search for "Ruby2Go" then install it!
-Or, go to https://marketplace.firefox.com/app/ruby2go/.
+Open the Marketplace in your Firefox OS device, search for "Ruby2Go" then
+install it! Or, go to https://marketplace.firefox.com/app/ruby2go/.
 
 P.S.: Yes, it's on the Marketplace now. :smile:
-
 
 ## Contributing
 
@@ -31,7 +29,6 @@ For now, I **need contributions about**:
 - Cross-browser support. (for the future)
 - Testing.
 
-
 ## Credits
 
 I'm using and distributing some libraries I wish to thank:
@@ -44,12 +41,11 @@ I'm using and distributing some libraries I wish to thank:
 - [Gaia Building Blocks](http://buildingfirefoxos.com) for the UI design and
   implementation.
 
-
 ## License
 
-This project is released under the [MIT license](license.txt).
-The licenses for the libraries used are [here](thirdpartylicense.txt).
-
+This project is released under the [MIT license](license.txt). The licenses for
+the libraries used are [here](thirdpartylicense.txt).
 
 [paybtn]: https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif
-[paylnk]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DVB7SSMVSHGTN
+[paylnk]:
+  https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DVB7SSMVSHGTN

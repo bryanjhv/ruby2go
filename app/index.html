@@ -1,69 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Ruby2Go</title>
-  <link rel="manifest" href="manifest.webapp">
-  <!-- build:css css/vendor.css -->
-  <link rel="stylesheet" href="lib/codemirror/lib/codemirror.css">
-  <link rel="stylesheet" href="lib/codemirror/theme/material.css">
-  <!-- endbuild -->
-  <!-- build:css css/app.css -->
-  <link rel="stylesheet" href="css/icons.css">
-  <link rel="stylesheet" href="css/transitions.css">
-  <link rel="stylesheet" href="css/main.css">
-  <!-- endbuild -->
-</head>
-<body role="application">
-<section role="region" id="page-code">
-  <header>
-    <button data-href="help">
-      <span class="icon icon-question">question</span>
-    </button>
-    <menu type="toolbar">
-      <button disabled id="btn-run" data-href="result">
-        <span class="icon icon-play">play</span>
-      </button>
-    </menu>
-    <h1>Ruby2Go</h1>
-  </header>
-  <article>
-    <textarea id="editor" placeholder="Place your code here..."></textarea>
-  </article>
-</section>
-<section role="region" id="page-result">
-  <header class="fixed">
-    <button data-back id="btn-result-back">
-      <span class="icon icon-chevron-left">chevron-left</span>
-    </button>
-    <h1>Ruby2Go</h1>
-  </header>
-  <article class="scrollable">
-    <ul id="history"></ul>
-  </article>
-</section>
-<section role="region" id="page-help">
-  <header class="fixed">
-    <button data-back>
-      <span class="icon icon-chevron-left">chevron-left</span>
-    </button>
-    <h1>Ruby2Go</h1>
-  </header>
-  <article class="scrollable" id="content-help">
-  </article>
-</section>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Ruby2Go</title>
+    <link rel="manifest" href="manifest.webapp" />
+    <!-- build:css css/vendor.css -->
+    <link rel="stylesheet" href="lib/codemirror/lib/codemirror.css" />
+    <link rel="stylesheet" href="lib/codemirror/theme/material.css" />
+    <!-- endbuild -->
+    <!-- build:css css/app.css -->
+    <link rel="stylesheet" href="css/icons.css" />
+    <link rel="stylesheet" href="css/transitions.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- endbuild -->
+  </head>
+  <body role="application">
+    <section role="region" id="page-code">
+      <header>
+        <button data-href="help">
+          <span class="icon icon-question">question</span>
+        </button>
+        <menu type="toolbar">
+          <button disabled id="btn-run" data-href="result">
+            <span class="icon icon-play">play</span>
+          </button>
+        </menu>
+        <h1>Ruby2Go</h1>
+      </header>
+      <article>
+        <textarea id="editor" placeholder="Place your code here..."></textarea>
+      </article>
+    </section>
+    <section role="region" id="page-result">
+      <header class="fixed">
+        <button data-back id="btn-result-back">
+          <span class="icon icon-chevron-left">chevron-left</span>
+        </button>
+        <h1>Ruby2Go</h1>
+      </header>
+      <article class="scrollable">
+        <ul id="history"></ul>
+      </article>
+    </section>
+    <section role="region" id="page-help">
+      <header class="fixed">
+        <button data-back>
+          <span class="icon icon-chevron-left">chevron-left</span>
+        </button>
+        <h1>Ruby2Go</h1>
+      </header>
+      <article class="scrollable" id="content-help"></article>
+    </section>
 
-<!-- build:js js/vendor.js -->
-<script src="lib/codemirror/lib/codemirror.js"></script>
-<script src="lib/codemirror/mode/ruby/ruby.js"></script>
-<script src="lib/codemirror/addon/display/placeholder.js"></script>
-<!-- endbuild -->
-<!-- build:js js/app.js -->
-<script src="js/transitions.js"></script>
-<script src="js/locale.js"></script>
-<script src="js/run.js"></script>
-<script src="js/main.js"></script>
-<!-- endbuild -->
-</body>
+    <!-- build:js js/vendor.js -->
+    <script src="lib/codemirror/lib/codemirror.js"></script>
+    <script src="lib/codemirror/mode/ruby/ruby.js"></script>
+    <script src="lib/codemirror/addon/display/placeholder.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/app.js -->
+    <script src="js/transitions.js"></script>
+    <script src="js/locale.js"></script>
+    <script src="js/run.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+  </body>
 </html>

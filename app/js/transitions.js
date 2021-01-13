@@ -1,9 +1,5 @@
 (function (document) {
-
-  var pages = [
-    document.querySelector('section').id.substr(5)
-  ];
-
+  var pages = [document.querySelector('section').id.substr(5)];
 
   function pass(cls) {
     document.getElementById('page-' + pages[pages.length - 1]).className = cls;
@@ -26,10 +22,8 @@
     this.disabled = false;
   }
 
-
   var buttons = document.querySelectorAll('button');
   for (var i = 0, l = buttons.length; i < l; i++) {
     buttons[i].addEventListener('click', onClick, false);
   }
-
 })(document);

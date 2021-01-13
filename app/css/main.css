@@ -51,7 +51,8 @@ button {
   color: rgba(0, 0, 0, 0.6);
 }
 
-button:active, button:hover {
+button:active,
+button:hover {
   background-color: rgba(0, 0, 0, 0.07);
 }
 
@@ -124,7 +125,7 @@ progress {
   border: none;
   border-radius: 0.3rem;
   display: block;
-  background: #f4f4f4 url("../img/ui/activity.png") repeat;
+  background: #f4f4f4 url('../img/ui/activity.png') repeat;
   background-size: auto 100%;
   animation: 0.4s move infinite steps(15);
 }

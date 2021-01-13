@@ -7,13 +7,13 @@
 }
 
 .icon-play {
-  background-image: url("../img/ui/play.svg");
+  background-image: url('../img/ui/play.svg');
 }
 
 .icon-question {
-  background-image: url("../img/ui/question.svg");
+  background-image: url('../img/ui/question.svg');
 }
 
 .icon-chevron-left {
-  background-image: url("../img/ui/chevron-left.svg");
+  background-image: url('../img/ui/chevron-left.svg');
 }

@@ -6,7 +6,6 @@ importScripts(
 
 Opal.load('opal-parser');
 
-
 var result;
 var console = {
   log: function (str) {
@@ -16,7 +15,6 @@ var console = {
     this.log('[warn] ' + str);
   }
 };
-
 
 onmessage = function (event) {
   var data = event.data;

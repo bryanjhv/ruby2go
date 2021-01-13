@@ -1,5 +1,4 @@
 (function () {
-
   // Fetch the help text
   var xhr = new XMLHttpRequest();
   xhr.open('GET', 'help.html', false);
@@ -25,5 +24,4 @@
     es: 'Coloca tu código aquí...'
   };
   document.getElementById('editor').placeholder = holder[lang] || holder.en;
-
 })();
